@@ -1,0 +1,9 @@
+##################
+# POISONING LOGS #
+##################
+
+[DATE] 2022-8-12
+[HOUR] 17.0.48
+[SERVER] mexipolis.tk
+
+Captured passwords: 

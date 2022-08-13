@@ -1,0 +1,9 @@
+##################
+# POISONING LOGS #
+##################
+
+[DATE] 2022-8-12
+[HOUR] 14.53.27
+[SERVER] mc.elrinconperdido.com
+
+Captured passwords: 

@@ -1,0 +1,9 @@
+##################
+# POISONING LOGS #
+##################
+
+[DATE] 2022-8-12
+[HOUR] 14.45.18
+[SERVER] mc.falkorcraft.es
+
+Captured passwords: 

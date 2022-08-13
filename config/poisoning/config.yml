@@ -10,7 +10,7 @@ listeners:
   priorities:
   - server
   bind_local_address: true
-  host: 0.0.0.0:83
+  host: 0.0.0.0:4000
   max_players: 999
   tab_size: 60
   force_default_server: true
@@ -42,6 +42,6 @@ disabled_commands:
 - server
 servers:
   server:
-    address: 45.235.98.29:25580
+    address: mexipolis.tk
     restricted: false
     motd: '&1Just another Waterfall - Forced Host'

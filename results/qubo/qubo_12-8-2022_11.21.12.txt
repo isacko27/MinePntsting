@@ -1,0 +1,48 @@
+##################
+# QUBO LOGS #
+##################
+
+[DATE] 2022-8-12
+[HOUR] 11.21.12
+[TARGET] 158.69.59.69
+
+Servers found: 
+
+
+[IP] 158.69.59.69:25603
+[MOTD] NewMexi
+[Version] Spigot 1.18.1
+[Protocol] 47
+[Players] 0/50
+
+[IP] 158.69.59.69:25790
+[MOTD] A Minecraft Server
+[Version] PaperSpigot 1.8.8
+[Protocol] 47
+[Players] 1/20
+[Names] MrJair (66448fdb-f8fa-4b9b-ae43-bd5226acebe8)
+
+[IP] 158.69.59.69:25573
+[MOTD] A Minecraft Server
+[Version] Paper 1.16.5
+[Protocol] 47
+[Players] 1/50
+[Names] MATEOJIN13 (16f48f9d-b9c7-3545-88e4-0c68533f829a)
+
+[IP] 158.69.59.69:25656
+[MOTD] A Minecraft Server
+[Version] Paper 1.16.5
+[Protocol] 47
+[Players] 0/100
+
+[IP] 158.69.59.69:25601
+[MOTD] A Minecraft Server
+[Version] Paper 1.19.2
+[Protocol] 47
+[Players] 0/20
+
+[IP] 158.69.59.69:25565
+[MOTD]  ; Mexipolis International [1.8 » 1.19.x] ; ♥ MegaUpdate ♥ ➝ POSTULACIONES ABIERTAS. AQUI MISMO
+[Version] Waterfall 1.8.x, 1.9.x, 1.10.x, 1.11.x, 1.12.x, 1.13.x, 1.14.x, 1.15.x, 1.16.x, 1.17.x, 1.18.x, 1.19.x
+[Protocol] 47
+[Players] 2/500

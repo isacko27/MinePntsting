@@ -1,4 +1,3 @@
-prevent_proxy_connections: false
 listeners:
 - query_port: 25565
   motd: '&1Bungeecord'
@@ -27,6 +26,7 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
+stats: 53d8f15d-f81f-4528-8799-a9a8fcce8f56
 player_limit: 300
 ip_forward: true
 groups:
@@ -35,7 +35,7 @@ groups:
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-stats: 53d8f15d-f81f-4528-8799-a9a8fcce8f56
+prevent_proxy_connections: false
 online_mode: false
 forge_support: true
 disabled_commands:
@@ -43,5 +43,5 @@ disabled_commands:
 servers:
   server:
     motd: '&c&lMCP&f&lTool &7&l» &9&lBungeeExploit'
-    address: mc.universocraft.com
+    address: mexipolis.tk:25601
     restricted: false

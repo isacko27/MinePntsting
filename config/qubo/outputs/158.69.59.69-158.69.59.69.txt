@@ -1,0 +1,9 @@
+quboScanner by @zreply - Version 0.3.5 
+Scanner started on: Fri, 12 Aug 2022 11:21:11 -0600
+(158.69.59.69:25603)(0/50)(Spigot 1.18.1)(NewMexi)
+(158.69.59.69:25790)(1/20)(PaperSpigot 1.8.8)(A Minecraft Server)
+(158.69.59.69:25573)(1/50)(Paper 1.16.5)(A Minecraft Server)
+(158.69.59.69:25656)(0/100)(Paper 1.16.5)(A Minecraft Server)
+(158.69.59.69:25601)(0/20)(Paper 1.19.2)(A Minecraft Server)
+(158.69.59.69:25565)(2/500)(Waterfall 1.8.x, 1.9.x, 1.10.x, 1.11.x, 1.12.x, 1.13.x, 1.14.x, 1.15.x, 1.16.x, 1.17.x, 1.18.x, 1.19.x)(§k; Mexipolis International [1.8 » 1.19.x] §k; ♥ MegaUpdate ♥ ➝ POSTULACIONES ABIERTAS. AQUI MISMO)
+Scanner ended on: Fri, 12 Aug 2022 11:21:12 -0600

@@ -1,0 +1,23 @@
+[17:03:41] [main/INFO]: Using mbed TLS based native cipher.
+[17:03:41] [main/INFO]: Using zlib based native compressor.
+[17:03:41] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488
+[17:03:41] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[17:03:41] [main/INFO]: Epoll is working, utilising it!
+[17:03:41] [main/INFO]: Loaded plugin RBungeeExploit version 1.0 by wRRulos
+[17:03:42] [main/WARN]: Forced host server pvp is not defined
+[17:03:42] [main/INFO]: [RBungeeExploit] RBungeeExploit loaded successfully!. By @wrrulos
+[17:03:42] [main/INFO]: 
+[17:03:42] [main/INFO]: ------------------------------------------------------------------------------
+[17:03:42] [main/INFO]: - connect [ip:port]  
+[17:03:42] [main/INFO]: - set-uuid [UUID]  
+[17:03:42] [main/INFO]: ------------------------------------------------------------------------------
+[17:03:42] [main/INFO]: 
+[17:03:42] [main/INFO]: Enabled plugin RBungeeExploit version 1.0 by wRRulos
+[17:03:42] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:33330
+[17:03:45] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:38492] <-> InitialHandler has pinged
+[17:03:50] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:40328] <-> InitialHandler has connected
+[17:03:50] [Netty Worker IO Thread #1/INFO]: [elpro5030|/127.0.0.1:40328] <-> ServerConnector [server] has connected
+[17:03:50] [Netty Worker IO Thread #1/INFO]: [elpro5030] disconnected with: Kicked whilst connecting to server: You have to join through the proxy.
+[17:03:50] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:40328|elpro5030] -> UpstreamBridge has disconnected
+[17:03:50] [Netty Worker IO Thread #1/INFO]: [elpro5030|/127.0.0.1:40328] <-> ServerConnector [server] has disconnected
+[17:04:03] [Thread-1/INFO]: Closing listener [id: 0x22e9abe9, L:/0:0:0:0:0:0:0:0%0:33330]

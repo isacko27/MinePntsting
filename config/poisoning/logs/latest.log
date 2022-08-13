@@ -1,0 +1,57 @@
+[17:01:00] [main/INFO]: Using mbed TLS based native cipher.
+[17:01:00] [main/INFO]: Using zlib based native compressor.
+[17:01:00] [main/INFO]: Enabled Waterfall version git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488
+[17:01:00] [main/INFO]: Not on Windows, attempting to use enhanced EpollEventLoop
+[17:01:00] [main/INFO]: Epoll is working, utilising it!
+[17:01:00] [main/INFO]: Loaded plugin RPoisoner version 1.0 by wRRulos
+[17:01:00] [main/INFO]: Loaded plugin CleanMOTD version 0.2.7 by 2LS
+[17:01:01] [main/WARN]: Forced host server pvp is not defined
+[17:01:01] [main/INFO]: [RPoisoner] RPoisoner loaded successfully!. By @wrrulos
+[17:01:01] [main/INFO]: Enabled plugin RPoisoner version 1.0 by wRRulos
+[17:01:01] [main/INFO]: Enabled plugin CleanMOTD version 0.2.7 by 2LS
+[17:01:01] [Netty Boss IO Thread #0/INFO]: Listening on /0.0.0.0:4000
+[17:01:12] [Netty Worker IO Thread #0/INFO]: [/127.0.0.1:54358] <-> InitialHandler has pinged
+[17:01:21] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:36210] <-> InitialHandler has connected
+[17:01:22] [Netty Worker IO Thread #1/INFO]: [elpro5030|/127.0.0.1:36210] <-> ServerConnector [server] has connected
+[17:01:23] [Netty Worker IO Thread #1/ERROR]: [/127.0.0.1:36210|elpro5030] <-> DownstreamBridge <-> [server] - encountered exception
+java.lang.IllegalStateException: Cannot connect proxy to itself!
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:502) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at net.md_5.bungee.connection.DownstreamBridge.handle(DownstreamBridge.java:299) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at net.md_5.bungee.protocol.packet.PluginMessage.handle(PluginMessage.java:93) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at net.md_5.bungee.netty.HandlerBoss.channelRead(HandlerBoss.java:114) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.codec.MessageToMessageDecoder.channelRead(MessageToMessageDecoder.java:103) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:324) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:311) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:432) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:276) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:795) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:480) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:378) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:986) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[WaterFall.jar:git:Waterfall-Bootstrap:1.18-R0.1-SNAPSHOT:5661172:488]
+	at java.lang.Thread.run(Thread.java:829) ~[?:?]
+[17:01:23] [Netty Worker IO Thread #1/INFO]: [elpro5030] disconnected with: The server you were previously on went down, you have been connected to a fallback server
+[17:01:23] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:36210|elpro5030] -> UpstreamBridge has disconnected
+[17:01:23] [Netty Worker IO Thread #1/INFO]: [/127.0.0.1:36210|elpro5030] <-> DownstreamBridge <-> [server] has disconnected
+[17:01:40] [Thread-1/INFO]: Closing listener [id: 0x9ca5e266, L:/0:0:0:0:0:0:0:0%0:4000]
